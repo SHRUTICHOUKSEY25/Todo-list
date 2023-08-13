@@ -1,0 +1,30 @@
+.ellipse-option .option{
+    background-color: white;
+    padding: 10px 17px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.25);
+    position: absolute;
+    border-radius: 4px;
+    z-index: 2;
+    right: -5px;
+    bottom: -65px;
+}
+.ellipse-option .option p:hover{
+    background: #bfbfbf86;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ellipse-option .option p{
+    font-size: 18px;
+    padding: 5px 10px;  
+}
+.option p{
+   display: flex;
+}
+.ellipse-option{
+    cursor: pointer;
+    transform: scale(0);
+    position: relative;
+}
+.ellipse .ellipse-option.show{
+    transform: scale(1);
+}
